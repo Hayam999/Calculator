@@ -27,4 +27,4 @@ I spent a total of **10 hours and 27 minutes** working on this project, distribu
 
 ## Demo
 
-You can view a live demo of the calculator application [here](https://your-github-username.github.io/calculator).
+You can view a live demo of the calculator application [here](https://hayam999.github.io/Calculator).
