@@ -8,6 +8,18 @@ btn.addEventListener('click', (event) => {
     let pressedButton = event.target.id;
     
     switch(pressedButton) {
+        case ".":
+            if (!(operator === "") && !(y.includes("."))) {
+                y = y.concat(".");
+                result = result.concat(".");
+                display(result);
+            }
+            else if (!(x.includes("."))) {
+                x = x.concat(".");
+                result = result.concat(".");
+                display(result);
+            }
+            break;
         case "del":
             x = "";
             y = "";
