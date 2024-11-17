@@ -3,8 +3,11 @@ var x = "";
 var y = "";
 var result = "";
 
+const audio = document.getElementById('clickSound');
 const btn = document.querySelector(".buttons");
 btn.addEventListener('click', (event) => {
+    audio.currentTime = 0;
+    audio.play();
     let pressedButton = event.target.id;
     
     switch(pressedButton) {
